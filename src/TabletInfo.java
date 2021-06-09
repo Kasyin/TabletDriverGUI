@@ -202,6 +202,7 @@ public class TabletInfo {
     public void toJson(String filename) throws IOException {
         Gson gson = new Gson();
         String file = gson.toJson(this);
+        File f = new File(filename);
         PrintWriter pr = new PrintWriter(new FileWriter(filename));
         pr.print(file);
         pr.close();

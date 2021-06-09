@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.sql.Time;
 
 public class DriverGUI extends JFrame {
-    private String filename = "/home/odd/settings.json";
+    private String filename = System.getProperty("user.home") + "/.tablet_config";
 
     private TabletInfo tabletInfo = null;
     private DrawArea drawArea = null;

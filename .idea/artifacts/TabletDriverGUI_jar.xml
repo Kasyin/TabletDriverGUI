@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TabletDriverGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabletDriverGUI_jar</output-path>
+    <root id="archive" name="TabletDriverGUI.jar">
+      <element id="module-output" name="TabletDriverGUI" />
+      <element id="extracted-dir" path="$USER_HOME$/Scaricati/gson-2.8.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
